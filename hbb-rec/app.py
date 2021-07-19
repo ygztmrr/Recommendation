@@ -21,7 +21,7 @@ app = FastAPI()
 @app.get('/')
 def get_root():
 
-	return {'message': 'Welcome to the Hepsi Burada Recommendation API'}
+	return {'message': 'Welcome to the HB Recommendation API'}
     
    
 @app.get('/predict/{name}')

@@ -1,2 +1,2 @@
 # Recommendation
-Apriroi
+Apriori - Association Rules

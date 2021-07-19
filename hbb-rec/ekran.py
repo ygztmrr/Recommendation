@@ -11,6 +11,10 @@ import pickle
 import requests
 import io
 
+cola,colb,colc = st.beta_columns(3)
+colb.image('./hblogo.jfif')
+
+
 items = ["Dereotu","Limon Lamas 500 gr","Şeftali Paket 500 gr","Çilek 250 gr","Dr.Oetker Şekerli Vanilin 15'li 75 gr","Dana Antrikot 250 gr","Dana Biftek 250 gr","Nane","Pepsi Cola Pet 1.5 L","Lipton Demlik Poşet Çay Doğu Karadeniz 100'Lü"]
 col1, col2, col3 = st.beta_columns(3)
 text = col1.selectbox("Ürün Seçiniz(Örnek 10 ürün listelenmiştir)", items)
